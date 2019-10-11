@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites have multiple layouts using media queries to adapt the site depending upon the size of the display. Responsive websites only has one layout that will scale based upon the size of the display, but will not change the layout of items on the display.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means that a site is designed for mobile viewing, and then the site is scaled up for desktop viewing. Desktop first involves designing a website to be viewed on a desktop and then scaling it down after the fact for mobile viewing.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This allows us to use rems by a factor of 10. For example size 12 font would equal 1.2rems.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+I would describe preprocessing as an add on to CSS that allows a developer to leverage additional tools and functions when developing a site so that a website can still be understood with CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept would be Escaping becasue of the amount of time it saves especially when tweaking media queries. Functions will definitely give me the most trouble just trying to remember them and use them effectively.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -98,7 +108,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html) -->
 
 * [ ] Navigation Styles: Use the `navigation.less` file for styling.
 
@@ -108,7 +118,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
 
-* [ ]  Use at least 2 parameters to create your button
+<!-- <!-- * [ ]  Use at least 2 parameters to create your button -->
 
 * [ ] Create a hover state that swaps the background color and font color of the base button styles.
 
@@ -116,11 +126,11 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file. -->
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
-In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
+<!-- <!-- In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not. -->
 
 ## Stretch Problems
 
